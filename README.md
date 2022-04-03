@@ -1,7 +1,7 @@
 # JAVA-SCRIPT-Learning
 - let;<br> *variable*<br>
 - var; - | - *variable*<br>
-- const;  *constant variable (can't be changed)*<br>
+- const; - *constant variable (can't be changed)*<br>
 - i++;  *The same as "i = i + 1"*<br>
 - i--;  *The same as "i = i - 1"*<br>
 - console.log( );  *show result in browser console*<br>
