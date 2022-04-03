@@ -2,7 +2,7 @@
 - let;<br> *variable*<br>
 - var; - | - *variable*<br>
 - const; - *constant variable (can't be changed)*<br>
-- i++;  *The same as "i = i + 1"*<br>
+- ######i++;  *The same as "i = i + 1"*<br>
 - i--;  *The same as "i = i - 1"*<br>
 - console.log( );  *show result in browser console*<br>
 - %;   *remainder ( !ex: 17 % 2 = 1; Explanation: 17/2=8,5 take 8 and 17-(8*2)=1; 17=2+2+2+2+2+2+2+2+1 ! 1-это остаток от целого деления)*<br>
