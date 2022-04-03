@@ -1,5 +1,5 @@
 # JAVA-SCRIPT-Learning
-- let; - | - *variable*<br>
+- let;<br> *variable*<br>
 - var; - | - *variable*<br>
 - const;  *constant variable (can't be changed)*<br>
 - i++;  *The same as "i = i + 1"*<br>
