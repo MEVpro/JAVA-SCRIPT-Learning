@@ -18,3 +18,10 @@
 - \t; -	[*tab*]<br>
 - \b; -	[*word boundary*]<br>
 - \f; -	[*form feed*]<br>
+- +; - [*concatenation operator - суммирует строчки "..."+"..."*]<br>
+- .length - [*count the number of characters*]<br>
+- [0] - [*указывает букву в слове с номером 0*]<br>
+          const lastName = "Lovelace";<br>
+          firstLetterOfLastName = lastName[0];<br>
+          console.log(firstLetterOfLastName);<br>
+- 
