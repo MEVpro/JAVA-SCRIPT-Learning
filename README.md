@@ -30,6 +30,8 @@
 - .pop() - [*is used to pop a value off of the end of an array*]
 - .shift() - [*is used to pop a value off of the beggining of an array*]
 - function 
+- length() - function counts wtat inside breckets
+- pow() - 
 ----
 function greet() {
   return "hello world!";
@@ -42,4 +44,3 @@ functionWithArgs(1, 2)
 functionWithArgs(7, 9)
 ----
 console.log(String.fromCharCode(37));
-----
