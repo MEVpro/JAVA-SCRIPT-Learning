@@ -24,14 +24,17 @@
           const lastName = "Lovelace";<br>
           firstLetterOfLastName = lastName[0];<br>
           console.log(firstLetterOfLastName);<br>
-- Array - [*диапазон значений через запятую*]
-- .push() - [*takes one or more parameters and "pushes" them onto the end of the array*]
-- .unshift() - [*takes one or more parameters and "pushes" them onto the beggining of the array*]
-- .pop() - [*is used to pop a value off of the end of an array*]
-- .shift() - [*is used to pop a value off of the beggining of an array*]
+- Array - [*диапазон значений через запятую*]<br>
+- .push() - [*takes one or more parameters and "pushes" them onto the end of the array*]<br>
+- .unshift() - [*takes one or more parameters and "pushes" them onto the beggining of the array*]<br>
+- .pop() - [*is used to pop a value off of the end of an array*]<br>
+- .shift() - [*is used to pop a value off of the beggining of an array*]<br>
 - function 
-- length() - function counts wtat inside breckets
-- pow() - 
+- length() - function counts wtat inside breckets<br>
+- pow() - function возводит в степень<br>
+- Math.abs() - Эта функция возвращает абсолютное значение переданного числа.
+- Math.pow() - возводящая число в какую-нибудь степень, принимает два параметра: какое число возводить и в какую степень возводить.
+- Math.ceil() - function always rounds a number up to the next largest integer.
 ----
 function greet() {
   return "hello world!";
