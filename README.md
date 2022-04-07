@@ -40,7 +40,12 @@
 - Math.random() - возвращает случайное число от 0 до 1
 - typeof  - позволяет определить тип передаваемого операнд
 - .toFixed() - округление до () знака после запятой
--  
+- ().toFixed() - округление () до () знака после запятой
+- .toUpperCase() - возвращает ту же строку, но преобразуя все символы в верхний регистр
+- .toLowerCase() - возвращает ту же строку, но преобразуя все символы в нижний регистр
+- .trim() - method removes whitespace from both ends of a string and returns a new string
+- .length() - method counts length of 
+- .slice() - извлекает часть строки и возвращает новую строку без изменения оригинальной строки.
 ----
 function greet() {
   return "hello world!";
