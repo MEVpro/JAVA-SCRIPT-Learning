@@ -46,6 +46,7 @@
 - .trim() - method removes whitespace from both ends of a string and returns a new string
 - .length() - method counts length of 
 - .slice() - извлекает часть строки и возвращает новую строку без изменения оригинальной строки.
+- 
 ----
 function greet() {
   return "hello world!";
