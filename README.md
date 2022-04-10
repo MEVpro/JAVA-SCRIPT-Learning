@@ -18,7 +18,7 @@
 - \t —	*tab*
 - \b —	*word boundary*
 - \f — *form feed*
-- + — *concatenation operator - суммирует строчки "..."+"..."*
+- "+" — *concatenation operator - суммирует строчки "..."+"..."*
 - .length — *count the number of characters*
 - [0] — *указывает букву в слове с номером 0*
 - Array — *диапазон значений через запятую*
