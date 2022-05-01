@@ -1,0 +1,421 @@
+/*
+function greet() {
+  return Math.pow(2,4);
+}
+console.log(greet()); 
+
+let i = 10; 
+while (i < 10) {...}
+
+console.log("\\ \\ \\\\ \\\ \'\"");
+
+let who = "dragon's" + 'mother';
+console.log(who);
+
+
+let info = "We couldn't verify you mother's maiden name.";
+let intro = 'Here is important information about your account security.';
+
+let firstName = 'Joffrey';
+let greeting = 'Hello';
+let emailHead = greeting + ',' + ' ' + firstName + '!';
+console.log(emailHead);
+console.log(info);
+console.log(intro);
+
+const magic = '\nyou'
+console.log(magic[1]);
+
+let result = 7 - (-8 - -2);
+console.log(result);
+
+console.log(console.log);
+
+
+const company1 = 'Apple';
+const company2 = 'Samsung';
+
+
+console.log(company1.length + company2.length);
+
+
+const number = 10.1234;
+console.log(Math.round(number, -1));
+
+console.log(`First: ${text[0]}\nLast: ${name[name.length - 1]}`);
+
+
+const text = 'Never forget what you are, for surely the world will not';
+
+console.log(`${text[text.length - 1]}`)
+
+
+let number = Math.random() * 10;
+let result = Math.round(number);
+console.log(Math.round(Math.random() * 10));
+
+
+
+let firstName = '  Grigor   \n';
+console.log(firstName.trim());
+
+const run = () => {
+  return 5;
+  return 10;
+}
+run();
+console.log(run());
+
+const number = () => {
+  const number = (Math.random() * 10);
+  const getRandomNumber = (Math.round(number));
+  return getRandomNumber;
+}
+number();
+console.log(number());
+
+
+const text = "Строка, которую нужно обрезать";
+const shortText = truncate(text, 10);
+console.log(shortText);
+
+const text = 'it works!';
+console.log(truncate(text, 4));
+
+
+const truncate = () => {
+  const textSlice = `${text.slice(2)} + "..."`;
+  return textSlice;
+}
+truncate();
+concole.log(truncate());
+
+
+const truncate = () => {
+  const textSlice = text.slice(2);
+  return textSlice;
+}
+truncate();
+concole.log(truncate());
+
+
+
+const cardNumber = '1234567812345678';
+const repeat = '*'.repeat(4);
+const result = repeat + cardNumber.slice(12);
+console.log(result);
+
+const repeat = '*'.repeat(4);
+
+
+const cardNumber = '1234567812345678';
+const getHiddenCard = (cardNumber, starsNumber = 4) => {
+  return `${'*'.repeat(starsNumber)}${cardNumber.slice(12)}`;
+};
+console.log(getHiddenCard(cardNumber, starsNumber = 4));
+
+
+
+
+const name = "nameArya";
+const capitalize = name[0].toUpperCase() + name.slice(1);
+console.log(capitalize);
+
+
+
+const capitalize = (name) => name[0].toUpperCase() + name.slice(1);
+console.log(capitalize('mitin Evgeny'));
+
+
+const getLetter = (name, letterIndex) => {
+  const letterNamber = letterIndex - 1;
+  return name[letterNamber] || "''";
+};
+console.log(getLetter('Hexlet', 10));
+
+
+
+const whoIsThisHouseToStarks = (name) => {
+  let status;
+  if (name = 'Karstark' || 'Tally') {
+    status = 'friend';
+  }
+  else if (name = 'Lannister' || 'Frey') {
+    status = 'enemy';
+  }
+  else {
+    status = 'neutral';
+  }
+  return status;
+};
+
+console.log(whoIsThisHouseToStarks('Frey'));
+
+
+
+
+const convertText = (word) => {
+  let text;
+  if (word === " ") {
+    text = " ";
+  }
+  else if (word[0] === word[0].toUpperCase()){
+    text = word;
+  }
+  else {
+    text = reverse(word);
+  }
+return text;
+}
+
+  
+
+
+const whoIsThisHouseToStarks = (name) => name === 'Karstark' || 'Frey' ;
+console.log(whoIsThisHouseToStarks('Frey'));
+
+
+const convertText = (word) => {
+  let text;
+  if (word === "") {
+    text = "";
+  }
+  else if (word[0] === word[0].toUpperCase()) {
+    text = word;
+  }
+  else if (word[0] !== word[0].toUpperCase()){
+    text = reverse(word);
+  }
+  return text;
+}
+
+
+
+
+
+const convertText = (word) => {
+  let text;
+  return (word === " ") ? text = " " : text;
+  return (word[0] === word[0].toUpperCase()) ? text = word : text;
+  return text = reverse(word);
+}
+
+
+const convertText = (word) => {
+  let text;
+  return (word === " ") ? text = " " : (word[0] === word[0].toUpperCase()) ? text = word : (word[0] !== word[0].toUpperCase()) ? text;
+}
+
+console.log(convertText("home"))
+
+
+
+const printNumbers = (initialNumber) => {
+  let i = initialNumber;
+  while (i >= 1) {
+    console.log(i);
+    i = i - 1;
+  }
+  console.log('finished!');
+};
+printNumbers(6);
+
+const multiplyNumbersFromRange = (start, end) =>{
+  let i = start;
+  let multiply = 1;
+  while (i <= end) {
+    multiply = multiply * i;
+    i = i + 1;
+  };
+  console.log(multiply);
+};
+multiplyNumbersFromRange(1, 5);
+
+
+
+
+const printReversedWordBySymbol = (name) => {
+  let i = name.length - 1;
+  while (i >= 0) {
+    console.log(name[i]);
+    i = i - 1;
+  }
+};
+printReversedWordBySymbol('Vasa');
+
+ 
+const countChars = (str, char) => {
+  let i = 0;
+  let count = 0;
+    while (i < str.length) {
+      if (char === str[i]){
+      count = count + 1;
+      }
+      else if (str[i] === char.toUpperCase()) {
+      count = count + 1;
+      }  
+      else if (str[i] === char.toLowerCase()) {
+      count = count + 1;
+      }  
+    i = i + 1;
+    }
+  console.log(count);
+};
+
+countChars('OpPa', 'P');
+
+
+// Ниже упрощенный вариант верхнего
+
+const countChars = (str, char) => {
+  let i = 0;
+  let count = 0;
+    while (i < str.length) {
+      if (str[i].toLowerCase() === char.toLowerCase()) {
+        count = count + 1;
+      }  
+    i = i + 1;
+    }
+  console.log(count);
+};
+countChars('OpPa', 'P');
+
+
+const reverse = (str) => {
+  let i = 0;
+  let result = '';
+    while (i < str.length) {
+      result = str[i] + result;
+      i = i + 1;
+    }
+  console.log(result);
+  return result;
+};
+reverse('Mitin');
+
+// сделать так чтобы результат был тем же но отсчт по сиволам шел с конца
+
+const reverse = (str) => {
+  let i = str.length - 1;
+  let result = '';
+    while (i >= 0) {
+      result = result + str[i];
+      i = i - 1;
+    }
+  console.log(result);
+  return result;
+};
+reverse('Mitin');
+
+
+// НЕ СМОГ САМ НАЙТИ РЕШЕНИЕ задачи СНИЗУ
+const filterString = (str, char) => {
+let i = 0;
+let result = '';
+    while (i < str.length) {
+      const currentChar = str[i];
+      if (currentChar !== char) {
+        result = result + currentChar;
+      }
+      else if (currentChar === char){
+        result = result + " ";
+      }
+      i = i + 1;
+    }
+  console.log(result);
+}
+filterString("If I look back I am lost", "I");
+// НЕ СМОГ САМ НАЙТИ РЕШЕНИЕ задачи сверху
+
+
+const makeItFunny = (text, n) => {
+let i = 0;
+result = '';
+while (i < text.length) {
+  result = result + text[i];
+    if (i === n + 1) {
+    result = text[n].toUpperCase;
+    n = n + n;
+    }
+}
+i = i + 1;
+console.log(result)
+};
+makeItFunny('I never look back', 3);
+
+
+const makeItFunny = (text, n) => {
+let i = 0;
+let upperN = n;
+result = '';
+  while (i < text.length) {
+      if (i !== upperN - 1) {
+        result = result + text[i];
+      }
+      else if (i === upperN - 1){
+            result = result + text[i].toUpperCase();
+            upperN = upperN + n;
+      }
+    i++;
+  }
+console.log(result);
+};
+makeItFunny('I never look back', 3);
+
+
+const hasChar = (str, char) => {
+let i = 0;
+  while (i < str.length) {
+    if (str[i] === char) {
+    return true;
+    }  
+    i = i + 1;
+  }
+return false;
+}
+console.log(hasChar('Awesomeness', 'm'))
+hasChar('Awesomeness', 'm');
+
+
+const encrypt = (text) => {
+let i = 0;
+let result = '';
+  while (i < text.length - 1){
+    result = result + text[i + 1] + text[i];
+    i = i + 2;
+    }
+  if (text.length % 2 === 0) {
+    return result;
+  } 
+  else {
+    return result + text[text.length - 1];
+  }
+}
+console.log(encrypt('attack'));
+*/
+// Ниже переписываю в упрощенный формат
+const encrypt = (text) => {
+
+let result = '';
+  for (let i = 0; i < text.length - 1; i += 2){
+    result = `${result}${text[i + 1]}${text[i]}`;
+    }
+  if (text.length % 2 === 0) {
+    return result;
+  } 
+  else {
+    return `${result}${text[text.length - 1]}`;
+  }
+}
+console.log(encrypt('attack!'));
+
+// Ниже решение учителя
+const encrypt = (str) => {
+  let result = '';
+  for (let i = 0; i < str.length; i += 2) {
+    const nextSymbol = str[i + 1] || '';
+    result = `${result}${nextSymbol}${str[i]}`;
+  }
+  return result;
+};
+console.log(encrypt('attack!'));
