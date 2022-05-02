@@ -2,6 +2,7 @@
 - let — *variable*
 - var — *variable*
 - const — *constant variable (can't be changed)*
+- = — *assignment*
 - i++ — *The same as "i = i + 1"*
 - i-- — *The same as "i = i - 1"*
 - console.log( ) — *show result in browser console*
@@ -45,8 +46,10 @@
 - .length() — *method counts length of*
 - .slice() — *извлекает часть строки и возвращает новую строку без изменения оригинальной строки*
 - boolean — *тип данных который содержит два значения "true" и "false"*
-- === — *равно*
-- !== — *не равно*
+- == — *equality operator*
+- === — *strict equality operator*
+- != — *inequality operator*
+- !== — *strict inequality operator*
 - && — *"И"(конъюнкция) «и то, и другое»*
 - || — *«ИЛИ» (дизъюнкция) «или то, или другое, или оба»*
 - ! — *меняет логическое значение на противоположное*
