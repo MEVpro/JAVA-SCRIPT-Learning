@@ -50,6 +50,7 @@
 - === — *strict equality operator*
 - != — *inequality operator*
 - !== — *strict inequality operator*
+- >, <, >=, <= — *operator (not strict)*
 - && — *"И"(конъюнкция) «и то, и другое»*
 - || — *«ИЛИ» (дизъюнкция) «или то, или другое, или оба»*
 - ! — *меняет логическое значение на противоположное*
