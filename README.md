@@ -76,6 +76,9 @@
 - [ "--i" ] — *декремент (префиксная форма) унарная операция уменьшает на единицу число, записанное в переменную i (сначала происходит изменение переменной, а потом возврат)*
 - [ .replace(a, b) ] — *замена значения "a" значением "b"*
 - [ objects ] - *Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties* <br>
+
+Example: <br>
+
 const *Object* = { <br>
   *property*: *data*, <br>
   *property*: [*data*, *data*] <br>
