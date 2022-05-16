@@ -75,4 +75,5 @@
 - [ "++i" ] — *инкремент (префиксная форма) унарная операция увеличивает на единицу число, записанное в переменную i (сначала происходит изменение переменной, а потом возврат)*
 - [ "--i" ] — *декремент (префиксная форма) унарная операция уменьшает на единицу число, записанное в переменную i (сначала происходит изменение переменной, а потом возврат)*
 - [ .replace(a, b) ] — *замена значения "a" значением "b"*
-- [ objects ] - 
+- [ objects ] - *Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties*
+- [ flexible Data Structure ] - *store data of strings, numbers, booleans, arrays, functions, and objects*
