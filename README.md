@@ -98,6 +98,6 @@
       }; 
 
       // The sub-properties of objects can be ACCESSED by chaining together the dot or bracket notation
-      Object.property[sub-property].sub-sub-property; || property.sub-property.sub-sub-property;
+      // Object.property[sub-property].sub-sub-property; || property.sub-property.sub-sub-property;
 
 - [ hasOwnProperty() ] — *method returns a boolean indicating whether the object has the specified property as its own property*
