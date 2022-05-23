@@ -75,34 +75,29 @@
 - [ "++i" ] — *инкремент (префиксная форма) унарная операция увеличивает на единицу число, записанное в переменную i (сначала происходит изменение переменной, а потом возврат)*
 - [ "--i" ] — *декремент (префиксная форма) унарная операция уменьшает на единицу число, записанное в переменную i (сначала происходит изменение переменной, а потом возврат)*
 - [ .replace(a, b) ] — *замена значения "a" значением "b"*
-- [ objects ] — *Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties* <br>
+- [ objects ] — *Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties* Example: <br>
 
-Example: <br>
-
-const *Object* = { <br>
-  *property*: *data*, <br>
-  *property*: [*data*, *data*] <br>
-}; <br>
+      const Object = { 
+        property: data, 
+        property: [data, data] 
+       }; 
 - [ flexible Data Structure ] — *store data of strings, numbers, booleans, arrays, functions, and objects*
 - [ Nested Objects ] — Example: <br>
 
-const *Object* = { <br>
-  *property*: { <br>
-    *sub-property*: *data* <br>
-  }, <br> 
-  *property*: { <br>
-   *sub-property*: { <br>
-      *sub-sub-property*: *data*, <br>
-      *sub-sub-property*: *data* <br>
-    }, <br>
-    *property*: *data* <br>
-  } <br>
-}; <br>
+      const Object = {
+        property: {
+          sub-property: data 
+        }, 
+        property: { 
+         sub-property: { 
+            sub-sub-property: data,
+            sub-sub-property: data 
+          }, 
+          property: data 
+        } 
+      }; 
 
-*The sub-properties of objects can be ACCESSED by chaining together the dot or bracket notation* <br>
+      // The sub-properties of objects can be ACCESSED by chaining together the dot or bracket notation
+      Object.property[sub-property].sub-sub-property; || property.sub-property.sub-sub-property;
 
-Example: <br>
-
-*Object*.*property*[*sub-property*].*sub-sub-property*; || *property*.*sub-property*.*sub-sub-property*;
-
-- 
+- [ hasOwnProperty() ] — *method returns a boolean indicating whether the object has the specified property as its own property*
