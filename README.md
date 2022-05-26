@@ -104,3 +104,4 @@
       // Object.property[sub-property].sub-sub-property; || property.sub-property.sub-sub-property;
 
 - [ hasOwnProperty() ] — *method returns a boolean indicating whether the object has the specified property as its own property*
+- [ reduce() ] — *Метод применяет функцию reducer к каждому элементу массива (слева-направо), возвращая одно результирующее значение*
