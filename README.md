@@ -107,4 +107,4 @@
 - [ .reduce() ] — *Метод применяет функцию reducer к каждому элементу массива (слева-направо), возвращая одно результирующее значение*
 - [ eval() ] — *позволяет выполнять строку как код*
 - [ structuredClone() ] — *method creates a deep clone of a given value using the structured clone algorithm*
-- 
+- [ map() ] — *method creates a new array populated with the results of calling a provided function on every element in the calling array*
